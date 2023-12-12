@@ -1,0 +1,27 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+.main-intro{
+  width: 600px;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.5);
+  padding: 10px;
+  overflow:scroll;
+}
+.main-intro div{
+  flex: 1; 
+}
+.main-intro div h1{
+  font-size: 30px;
+  line-height: 1.8;
+  color: var(--header-colour);
+}
+
+.main-intro h2{
+  line-height: 1.5;
+}
+
+.main-intro p{
+  line-height: 1.5;
+}
