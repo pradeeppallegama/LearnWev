@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css"> 
 </head>
+<script>
+    if ('serviceWorker' in navigator) {
+   navigator.serviceWorker.register("/serviceworker.js");
+}
+</script>
 <body>
     <header class="header-main">
         <div class="header-main-logo"><img src="image/paradise-high-resolution-logo-white-transparent.png" alt="pradise logo"></div>
