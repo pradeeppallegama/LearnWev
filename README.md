@@ -1,2 +1,2 @@
-# LearnWem
+# LearnWeb
 Example sites for students
